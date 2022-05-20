@@ -173,6 +173,7 @@ a{
     padding-bottom: 80px;
 }
 .scroll_block{
+    display: block;
 }
 .scroll_line{
     width: 1px;
@@ -185,4 +186,63 @@ a{
     color: #DCCA87;
     font-family: 'Cormorant Upright';
     padding: 120px 10px 10px 10px;
+}
+.about{
+}
+.bg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 150px;
+    width: 100%;
+    height: 959px;
+    background: url(../img/bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.knife{
+    position: absolute;
+    width: 84px;
+    height: 703px;
+    background: url(../img/knife.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.G{
+    position: absolute;
+    width: 391px;
+    height: 415px;
+    background: url(../img/G.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.title{
+    font-size: 64px;
+    color: #DCCA87;
+    padding-bottom: 30px;
+}
+.content_text{
+    color: #AAAAAA;
+    margin-bottom: 7%;
+}
+.button{
+    width: 20%;
+    background-color: #DCCA87;
+    padding: 16px 32px;
+    text-align: center;
+    
+}
+.about_us{
+    width: 523px;
+    height: 300px;
+    position: relative;
+    text-align: right;
+}
+.our_history{
+    width: 523px;
+    height: 300px;
+    position: relative;
+    margin-left: 14%;
+    text-align: left;
 }
